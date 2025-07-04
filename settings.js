@@ -16,15 +16,15 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 //--------------------[ SESSION ID ]----------------------//
 
 global.SESSION_ID = process.env.SESSION_ID || '' 
-//Enter your KANGO-XMD session id here; must start with KANGO~
+//KANGO~sr8z1ShA#L9gDSDNMGaIAebEcTWjgG3Ou0fsKRQEzeuikwPbHKkk
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'KANGO-XMD' 
+global.botname = process.env.BOT_NAME || 'Musau Benjamin bot' 
 
-//-----------------[ OWNER NUMBER ]------------------//
+//-----------------[ 256785191109 ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '256785191109' 
 
 //--------------------[ SUDO ]--------------------------//
 
@@ -34,7 +34,7 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'Rare Species' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
@@ -62,7 +62,7 @@ global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©KANGO-XMD"
+global.wm = process.env.GL_WM || "> 𝓡𝓪𝓻𝓮_𝓢𝓹𝓮𝓬𝓲𝓮𝓼-100% 𝓫𝓸𝓽"
 
 //---------------------[ REPLIES ]-----------------------//
 
